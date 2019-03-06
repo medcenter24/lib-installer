@@ -2,7 +2,7 @@
     "name": "mydocs24/lib-installer",
     "description": "Correct folders installation",
     "keywords": ["composer", "lib-mydoctors24"],
-    "license": "GNU-2",
+    "license": "GPL-2.0-only",
     "type": "composer-plugin",
     "minimum-stability": "dev",
     "require": {
