@@ -1,7 +1,7 @@
 {
-    "name": "mydocs24/lib-installer",
+    "name": "medcenter24/lib-installer",
     "description": "Correct folders installation",
-    "keywords": ["composer", "lib-mydoctors24"],
+    "keywords": ["composer", "lib-medcenter24"],
     "license": "GPL-2.0-only",
     "type": "composer-plugin",
     "minimum-stability": "dev",
@@ -10,11 +10,11 @@
     },
     "autoload": {
         "psr-0": {
-            "mydoctors24\\composer": "./"
+            "medcenter24\\composer": "./"
         }
     },
     "extra": {
-        "class": "mydoctors24\\composer\\InstallPlugin"
+        "class": "medcenter24\\composer\\InstallPlugin"
     },
     "authors": [
         {

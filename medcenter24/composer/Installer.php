@@ -8,8 +8,8 @@ use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
 class Installer extends LibraryInstaller
 {
-  const EXT_NAME_KEY = 'mydoctors24-extension-name';
-  const EXT_TYPE = 'mydoctors24-extension';
+  const EXT_NAME_KEY = 'medcenter24-extension-name';
+  const EXT_TYPE = 'medcenter24-extension';
   
   /**
    * Install extensions before vendor dir
@@ -36,3 +36,4 @@ class Installer extends LibraryInstaller
         return self::EXT_TYPE === $packageType;
     }
 }
+
