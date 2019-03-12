@@ -1,11 +1,16 @@
-<?php namespace mydoctors24\composer;
+<?php
 /**
  * Copyright (c) 2017.
  *
  * @author Oleksandr Zagovorychev <zagovorichev@gmail.com>
  */
+
+namespace medcenter24\composer;
+
+
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
+
 class Installer extends LibraryInstaller
 {
   const EXT_NAME_KEY = 'medcenter24-extension-name';

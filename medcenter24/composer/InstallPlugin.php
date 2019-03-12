@@ -1,12 +1,17 @@
-<?php namespace mydoctors24\composer;
+<?php
 /**
  * Copyright (c) 2017.
  *
  * @author Oleksandr <zagovorychev@gmail.com>
  */
+
+namespace medcenter24\composer;
+
+
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
+
 class InstallPlugin implements PluginInterface
 {
     public function activate(Composer $composer, IOInterface $io){
@@ -14,3 +19,4 @@ class InstallPlugin implements PluginInterface
         $composer->getInstallationManager()->addInstaller($installer);
     }
 }
+
